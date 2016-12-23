@@ -1,6 +1,6 @@
 # Approximation
-
  This C++ Program demonstrates how the Midpoint, Trapezoidal and Simpson's numerical integration methods work.
- The User is required to make three inputs: the lower and upper bounds of integration and the maximum number of allowed iterations.
- ⌠f(x)dx the function under the integral must be hard coded in the main_source.cpp file. No parsler is provided with this program.
- This program then outputs the results of each iteration or mesh on the screen.
+ The integrated function f(x) must be hard coded in the main_source.cpp file. No parsler is provided at this time. 
+ The User is also required to make three inputs: the lower and upper bounds of integration and the maximum number of iteration allowed.
+ The tolerance error is defined as a macro in the main_source.cpp file and is equivalent to 5e-7.
+ When compiled, this program displays the result of each method at each iteration.
